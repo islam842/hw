@@ -70,13 +70,13 @@ class CosmicHero(SuperHero):
         print(f'Fly in the {self.fly}_phrase')
 
 
-airHero = AirHero('Goku', 'Tornado', 'Esper', 200, 'Know your place, B-Class!', 100)
+airHero = AirHero('Parker', 'SpiderMan', 'Esper', 200, 'Know your place!', 100)
 print(airHero)
 airHero.health_2()
 airHero.method_fly()
 print()
 
-cosmichero = CosmicHero('Saitama', 'Kingu', 'Strong Heartbeats', 80,'Im the strongest man on earth. The S-Class Rank 7/'
+cosmichero = CosmicHero('Saitama', 'saitama', 'Strong Heartbeats', 80,'Im the strongest man on earth. The S-Class Rank 7/'
                                                                   'hero, King. Do you know that!?!', 150)
 print(cosmichero)
 cosmichero.health_2()
